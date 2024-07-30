@@ -38,5 +38,10 @@ namespace GitTest.Controllers
         {
             return View();
         }
+
+        public IActionResult Insert()
+        {
+            return View();
+        }
     }
 }
