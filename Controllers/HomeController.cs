@@ -33,5 +33,10 @@ namespace GitTest.Controllers
         {
             return View();
         }
+
+        public IActionResult reg()
+        {
+            return View();
+        }
     }
 }
