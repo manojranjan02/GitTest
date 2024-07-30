@@ -43,5 +43,9 @@ namespace GitTest.Controllers
         {
             return View();
         }
+        public IActionResult Del()
+        {
+            return View();
+        }
     }
 }
