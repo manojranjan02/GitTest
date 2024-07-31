@@ -8,5 +8,9 @@ namespace GitTest.Controllers
         {
             return View();
         }
+        public async Task<IActionResult> UserAccount()
+        {
+            return View();
+        }
     }
 }
