@@ -52,5 +52,10 @@ namespace GitTest.Controllers
         {
             return View();
         }
+
+        public IActionResult ViewItem()
+        {
+            return View();
+        }
     }
 }
